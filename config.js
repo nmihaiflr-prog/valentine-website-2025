@@ -5,35 +5,35 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Draga Pingu",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be My Valentine Pingu too? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💖', '🤍', '💗', '💓'],  // Heart emojis
+        bears: ['🐧', '🦋']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Vreeeeei cheia orasului?",                                    // First interaction
+            yesBtn: "Vreau sa fiu prima doamna",                                             // Text for "Yes" button
+            noBtn: "Nu, mai bine imi iau sheikh",                                               // Text for "No" button
+            secretAnswer: "Pentru cheia aia las orice print arab! 🤍"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "Caaaaat de mult vrei sa ma indopi?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentine Pingu on February 14th, 2026? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW O SA FIM PINGU FOR LIFEEE?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "Te iubeeeeeeesc acum si inca 9 vieti! 🚀💝",              // Shows when they go past 1000%
+        normal: "Te iubeeeeeesc! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Yaaaaay! Sunt cel mai norocos Pingu ever, te iubeeeesc! 🎉🤍💖🐧💓🦋",
+        message: "Culmea astazi facem si 3 luni asa ca happy monthsary)) s a intamplat sa fim amandoi plecati si asta e cea mai buna varianta pe care am gasit o asa ca te iubesc mult, de abia astept sa te vad  si esti printesa mea frumoasa 🤍!",
+        emojis: "🥹💖🤍💝🐧❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -75,14 +75,7 @@ const CONFIG = {
 
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
-    music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
-    }
+    
 };
 
 // Don't modify anything below this line unless you know what you're doing
